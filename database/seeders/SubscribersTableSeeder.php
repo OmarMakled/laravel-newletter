@@ -19,18 +19,12 @@ class SubscribersTableSeeder extends Seeder
         $subscribers = [
             [
                 'user_id' => User::where('email', 'user1@example.com')->first()->id,
-                'created_at' => now()->subDays(5),
-                'deleted_at' => null,
             ],
             [
                 'user_id' => User::where('email', 'user2@example.com')->first()->id,
-                'created_at' => now()->subDays(10),
-                'deleted_at' => null,
             ],
             [
                 'user_id' => User::where('email', 'user3@example.com')->first()->id,
-                'created_at' => now()->subDays(10),
-                'deleted_at' => null,
             ]
         ];
 
