@@ -19,7 +19,7 @@
 - QA and Final Testing can be completed in parallel, ensuring the entire project can be wrapped up within 8 weeks.
 - Total Estimated Duration: ~8 weeks
 
-### Code standard && Deploying
+### Code standard & Deploying
 
 - For the frontend, we will use `ESLint` for linting and `Prettier` for code formatting. For the PHP backend, we will use `PHP_CodeSniffer`.
 
@@ -39,13 +39,14 @@
 
 ### Installation
 
-- To start the project you need to run docker compose up -d it will pull the images if not exists and spin up the containers.
+- To start the project you need to run `docker compose up -d` it will pull the images if not exists and spin up the containers.
 
-- Run make install to install dependencies if this is the first time.
+- Run `make install` to install dependencies if this is the first time.
  🎯
 
-### Send NewsLetter
+### Process Campaigns
 
+Run make `cron-start`🎯
 
 ### API
 

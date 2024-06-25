@@ -9,6 +9,7 @@ RUN usermod -u $USER_ID www-data && groupmod -g $GROUP_ID www-data
 WORKDIR /var/www/html
 
 RUN apt-get update && apt-get install -y \
+    cron \
     libzip-dev \
     unzip \
     git \
